@@ -1,5 +1,29 @@
 {
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "socket.io": "^4.6.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shneketos/webchat_back.git"
+  },
+  "author": "sheen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shneketos/webchat_back/issues"
+  },
+  "homepage": "https://github.com/shneketos/webchat_back#readme",
+  "description": ""
 }
