@@ -71,7 +71,7 @@ app.get("/", (req, res) => {
   res.send("success");
 });
 
-server.listen(5000, (err) => {
+server.listen(process.env.PORT || 5000, (err) => {
   if (err) {
     return console.log("error");
   }
